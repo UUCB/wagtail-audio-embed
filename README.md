@@ -8,7 +8,7 @@ It uses the default audio tag to play the audio file:
 
 ## Quick start
 
-1. Add "wagtailaudioembed" to your INSTALLED_APPS setting like this::
+Add "wagtailaudioembed" to your INSTALLED_APPS setting like this::
 
 ```python
 INSTALLED_APPS = [
@@ -17,7 +17,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-1. Register the embed finder class in your settings
+Register the embed finder class in your settings
 
 ```python
 WAGTAILEMBEDS_FINDERS = [
@@ -27,8 +27,7 @@ WAGTAILEMBEDS_FINDERS = [
 ]
 ```
 
-1. Restart your application and start embedding links to *.ogg
-
+Restart your application and start embedding links to Vorbis files
 
 ## References
 
