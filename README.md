@@ -40,6 +40,7 @@ WAGTAILEMBEDS_FINDERS = [
 Restart your application and start embedding links to Vorbis files.
 
 ## References
+
 - [Advanced tutorial: How to write reusable apps](https://docs.djangoproject.com/en/4.0/intro/reusable-apps/)
 - [Wagtail docs - Embedded content](https://docs.wagtail.org/en/stable/advanced_topics/embeds.html)
 - [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
