@@ -1,7 +1,11 @@
 # Wagtail-Audio-Embed
 
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/peterjochum/wagtail-audio-embed?sort=semver)
+[![Coverage Status](https://coveralls.io/repos/github/peterjochum/wagtail-audio-embed/badge.svg?branch=main)](https://coveralls.io/github/peterjochum/wagtail-audio-embed?branch=main)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 Wagtail-Audio-Embed allows you to use links to sound files using the embed
-feature of the draftail editor.
+feature of the [Draftail editor](https://www.draftail.org).
 
 It uses the default audio tag to play the audio file:
 
@@ -27,7 +31,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Register the embed finder class in your settings
+Register the embed finder class in your settings:
 
 ```python
 WAGTAILEMBEDS_FINDERS = [
@@ -38,6 +42,13 @@ WAGTAILEMBEDS_FINDERS = [
 ```
 
 Restart your application and start embedding links to Vorbis files.
+
+## Known limitations
+
+- `.ogg` has to be in the URL for the finder to accept. The finder is not
+  allowed to make requests in the URL acceptance decision.
+- Only Vorbis files are supported which excludes Safari Users
+  [according to Caniuse](https://caniuse.com/?search=audio%20format).
 
 ## References
 
