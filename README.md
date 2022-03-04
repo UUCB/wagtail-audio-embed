@@ -7,7 +7,7 @@ It uses the default audio tag to play the audio file:
 
 ![Rendering in Firefox](https://github.com/peterjochum/wagtail-audio-embed/raw/main/img/screenshot.png)
 
-See [Wagtail-Audio-Embed on PyPi](https://pypi.org/project/wagtail-audio-embed/0.1.1/)
+See [Wagtail-Audio-Embed on PyPi](https://pypi.org/project/wagtail-audio-embed/)
 for binaries and additional information.
 
 ## Quick start
